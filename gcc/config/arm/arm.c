@@ -3808,6 +3808,8 @@ static const isr_attribute_arg isr_attribute_args [] =
   { "undef", ARM_FT_EXCEPTION },
   { "SWI",   ARM_FT_EXCEPTION },
   { "swi",   ARM_FT_EXCEPTION },
+  { "SVC",   ARM_FT_EXCEPTION },
+  { "svc",   ARM_FT_EXCEPTION },
   { NULL,    ARM_FT_NORMAL }
 };
 

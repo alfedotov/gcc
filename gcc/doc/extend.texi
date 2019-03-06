@@ -4176,7 +4176,7 @@ void f () __attribute__ ((interrupt ("IRQ")));
 
 @noindent
 Permissible values for this parameter are: @code{IRQ}, @code{FIQ},
-@code{SWI}, @code{ABORT} and @code{UNDEF}.
+@code{SVC}, @code{SWI}, @code{ABORT} and @code{UNDEF}. Permissible values are also accepted in lower case.
 
 On ARMv7-M the interrupt type is ignored, and the attribute means the function
 may be called with a word-aligned stack pointer.
